@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create three equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .content {
+      h1 {
+        padding-left:3em;
+      }
+  }
+  .row {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+      .column {
+          margin:1em;
+          text-align: center;
+      }
+  }
+  .col1 h2 {
+    width: 300px;
+    height: 300px;
+    padding: 70px 0;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.6;
+    background-image: url("https://pixabay.com/get/55e2d7424b52af14f6d1867dda6d49214b6ac3e45657794a772c73dd95/clothing-3221103_1920.jpg"); 
+  }
+  .col2 h2 {
+    width: 300px;
+    height: 300px; 
+    object-fit: contain; 
+    padding: 70px 0;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.6;
+    background-image: url("https://pixabay.com/get/52e3d14a4b5ab108feda8460825668204022dfe05559724b702f72dc/legs-434918_1920.jpg"); 
+  }
+  .col3 h2 {
+    width: 300px;
+    height: 300px;
+    padding: 70px 0;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    opacity: 0.6;
+    background-image: url("https://pixabay.com/get/57e4d24b4253a814f6d1867dda6d49214b6ac3e45657794a772a79d595/handbag-1478814_1920.jpg"); 
+  }

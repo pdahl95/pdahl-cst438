@@ -1,0 +1,40 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .content {
+    /* The image used */
+    background-image: url("https://cdn.pixabay.com/photo/2016/01/19/17/48/woman-1149909_1280.jpg");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: -8px;
+    padding: 6em;
+    height: 490px;
+  }
+  #title-home{
+      color: white;
+  }
+  #text-home{
+    color: white;
+    font-size: 52px;
+    
+  }
+  #home-btn{
+    background-color: #828c83;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
