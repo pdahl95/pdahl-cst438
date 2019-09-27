@@ -1,0 +1,56 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class='content'> 
+    <div class='frame'>
+        <div class="row">
+                <div class="column1">
+                    <table>
+                        <tr>
+                            <th>PRODUCT</th>
+                            <th>PRICE</th>
+                            <th>QTY</th>
+                            <th>TOTAL</th>
+                        </tr>
+                        <tr>
+                            <td><img class="cart-img" src="assets/img/dress.png"><br><span> Dress with Tie Belt </span></td>
+                            <td>$99.99</td>
+                            <td>
+                                <div class="quantity buttons_added">
+                                    <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                                </div>
+                            </td>
+                            <td>$99.99</td>
+                        </tr>
+                        <tr>
+                            <td><img class="cart-img" src="assets/img/pants.jpeg"><br><span> Ankle-length Slacks</span></td>
+                            <td>$50.00</td>
+                            <td>
+                                <div class="quantity buttons_added">
+                                    <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                                </div></td>
+                            <td>$50.00</td>
+                        </tr>
+                        <tr>
+                            <td><img class="cart-img" src="assets/img/top.jpeg"><br><span> Satin Camisole Top </span></td>
+                            <td>$24.99</td>
+                            <td>
+                                <div class="quantity buttons_added">
+                                    <input type="button" value="-" class="minus"><input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+                                </div>
+                            </td>
+                            <td>$24.99</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="column2">
+                    <h2>Your Cart</h2>
+                    <p>Cart Total: <input type="text" name="totalCart" value="$174.98" id="totalCart"> </p>
+                    <button class="nav-item nav-link-edit" [routerLink]="['checkout']"id="checkout-btn" class="fa fa-shopping-cart" aria-hidden="true"> Checkout  </button>
+
+                    <span> 
+                         <img class="bag" src="assets/img/bagbag.jpg">
+                    </span>
+                </div>
+                </div>
+
+    </div>
+</div>

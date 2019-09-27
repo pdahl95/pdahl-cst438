@@ -8,13 +8,23 @@ import { SignComponent } from './sign/sign.component';
 import { ListComponent } from './list/list.component';
 import { HttpClient } from 'selenium-webdriver/http';
 import { HttpClientModule } from '@angular/common/http';
+import { ClothesComponent } from './clothes/clothes.component';
+import { CartComponent } from './cart/cart.component';
+import { DressdetailComponent } from './dressdetail/dressdetail.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { FinalizationComponent } from './finalization/finalization.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     SignComponent,
-    ListComponent
+    ListComponent,
+    ClothesComponent,
+    CartComponent,
+    DressdetailComponent,
+    CheckoutComponent,
+    FinalizationComponent
   ],
   imports: [
     BrowserModule,

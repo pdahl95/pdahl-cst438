@@ -31,7 +31,9 @@
       }
   }
 
-  .col1 h2 {
+  .col1 a h2 {
+    color: black;
+    text-decoration: none;
     width: 300px;
     height: 300px;
     padding: 70px 0;
@@ -39,7 +41,8 @@
     background-position: center center;
     background-size: cover;
     opacity: 0.6;
-    background-image: url("https://pixabay.com/get/55e2d7424b52af14f6d1867dda6d49214b6ac3e45657794a772c73dd95/clothing-3221103_1920.jpg"); 
+    background-image: url("src/assets/img/jeans-828693_1920.jpg"); 
+  
   }
   .col2 h2 {
     width: 300px;
@@ -50,7 +53,7 @@
     background-position: center center;
     background-size: cover;
     opacity: 0.6;
-    background-image: url("https://pixabay.com/get/52e3d14a4b5ab108feda8460825668204022dfe05559724b702f72dc/legs-434918_1920.jpg"); 
+    background-image: url("src/assets/img/legs-434918_1920.jpg"); 
   }
   .col3 h2 {
     width: 300px;
@@ -60,5 +63,5 @@
     background-position: center center;
     background-size: cover;
     opacity: 0.6;
-    background-image: url("https://pixabay.com/get/57e4d24b4253a814f6d1867dda6d49214b6ac3e45657794a772a79d595/handbag-1478814_1920.jpg"); 
+    background-image: url("src/assets/img/handbag-1478814_1920.jpg"); 
   }
