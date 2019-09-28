@@ -8,7 +8,14 @@ Sprint1 is the first part of a bigger project with up to seven sprints. The proj
 
 ## The project consists of eight components:
 
-The Main page - home Sign in page - sign Collection of products - list Deatils page of clothing - clothes Deatils of Dress page - dressdetial Cart (Shopping Cart) - Cart Checkout Page - checkout Order Completed - finalzation
+The Main page - home 
+Sign in page - sign 
+Collection of products - list 
+Deatils page of clothing - clothes 
+Deatils of Dress page - dressdetial 
+Cart (Shopping Cart) - Cart 
+Checkout Page - checkout Order 
+Completed - finalzation
 
 ## RouterLink
 
